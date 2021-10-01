@@ -73,6 +73,7 @@ services:
       - oj-postgres
       - judge-server
       - oj-forum
+      
     volumes:
       - $PWD/data/backend:/data
       - $PWD/data/forum:/forum
